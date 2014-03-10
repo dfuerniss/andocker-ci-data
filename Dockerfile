@@ -3,4 +3,4 @@
 FROM busybox
 RUN mkdir /data
 VOLUME /data
-CMD ["/usr/bin/true"]
+CMD ["/bin/true"]
